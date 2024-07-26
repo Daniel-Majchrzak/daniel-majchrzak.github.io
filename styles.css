@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #e3d1e6;
+}
+.section1, .section2 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.section2 {
+    background: #9d4e3e;
+}
+.text{
+    top:30%;
+    left:50%;
+    position: absolute;
+    font-family: 'Tahoma';
+    font-size: 15vw;
+    color: #7a6d2a;
+    transform: scale(1,1,1) translate(-50%, 10%);
+}
