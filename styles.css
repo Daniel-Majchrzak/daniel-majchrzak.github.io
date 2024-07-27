@@ -1,0 +1,73 @@
+
+body{
+    background: #d1d9e6;
+    color: #7a2616;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #7a2616;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover {
+    background: #7a2616;
+    color: #d1d9e6;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parallax img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width:100%;
+    object-fit: cover;
+    pointer-events: none;
+    border-collapse: collapse;
+}
+
+div.hill1{
+    z-index: 1;
+}
+div.title{
+    z-index: 2;
+    position: fixed;
+    margin-bottom: 150px;
+    font-size: larger;
+}
+div.hill2{
+    z-index: 3;
+}
+div.navigation{
+    z-index: 4;
+    position: fixed;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+div.hill3{
+    z-index: 5;
+}
+
+.beetles{
+    background: #915346;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6
+}
