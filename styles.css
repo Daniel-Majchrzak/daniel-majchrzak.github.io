@@ -1,6 +1,6 @@
 body{
     background-image: url(colour1.png), url(colour2.png);
-    background-position: bottom, top;
+    background-position: top, bottomtop;
     background-repeat: no-repeat;
     color: #7a2616;
     min-height: 100vh;
