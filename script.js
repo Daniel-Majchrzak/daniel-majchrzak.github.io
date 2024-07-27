@@ -6,5 +6,5 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
     shape1.style.bottom = value * 0.161 + 'px';
-    shape2.style.bottom = value * 0.08 + 'px';
+    shape2.style.bottom = value * 0.07 + 'px';
 });
