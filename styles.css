@@ -1,6 +1,7 @@
-
 body{
-    background: #d1d9e6;
+    background-image: url(colour1.png), url(colour2.png);
+    background-position: bottom, top;
+    background-repeat: no-repeat;
     color: #7a2616;
     min-height: 100vh;
     overflow-x: hidden;
